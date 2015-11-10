@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Invasão</string>
+
+    <string name="action_settings">Configurações</string>
+    <string name="insert_code">Insirá o código</string>
+    <string name="backspace">Corrigir</string>
+    <string name="calculate_invasion">Calcular Invasão</string>
+
+    <string name="example1">Inserir exemplo 1</string>
+    <string name="example2">Inserir exemplo 2</string>
+    <string name="example3">Inserir exemplo 3</string>
+
+    <string name="space">Espaço</string>
+</resources>

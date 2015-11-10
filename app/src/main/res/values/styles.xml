@@ -5,4 +5,11 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="MyTextViewStyle" >
+        <item name="android:textColor">#F00</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">#00aaaa</item>
+    </style>
+
 </resources>
