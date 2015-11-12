@@ -11,12 +11,12 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:hint="@string/insert_code"
-            android:textColorHint="#AAA"
+            android:textColorHint="#ddd"
             android:gravity="center"
 
             android:id="@+id/textViewCode"
-            android:background="@color/background_material_dark"
-            android:textColor="#FFF"
+            android:background="#FFF"
+            android:textColor="#000"
             />
 
         <TableLayout

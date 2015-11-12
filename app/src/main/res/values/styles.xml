@@ -6,10 +6,10 @@
     </style>
 
     <style name="MyTextViewStyle" >
-        <item name="android:textColor">#F00</item>
+        <item name="android:textColor">#FFF</item>
         <item name="android:textStyle">bold</item>
         <item name="android:gravity">center</item>
-        <item name="android:background">#00aaaa</item>
+        <item name="android:background">#000</item>
     </style>
 
 </resources>
