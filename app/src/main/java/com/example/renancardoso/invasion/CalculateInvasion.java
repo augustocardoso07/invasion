@@ -84,16 +84,18 @@ public class CalculateInvasion {
     private CharSequence formatDate(int S) {
         int day   = S % 31;
         int month = S % 12;
-        if ((day == 0) && ((month == 2) || (month == 4) ||
-                           (month == 6) || (month == 9) || (month == 11))) {
+        if ((day == 0) && ((month == 4) || (month == 6) || (month == 9) || (month == 11)) ||
+                (day == 30 && month == 2)) {
             day++;
             month++;
         }
 
-        if (day == 30 && month == 2) {
-            day = 1;
+        if (day == 0 && month == 2) {
+            day = 2;
             month++;
         }
+
+
         return DAYS[day] + " de " + MONTHS[month];
     }
 
